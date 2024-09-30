@@ -4,7 +4,7 @@ Textual Perturbations Defense
 This is the official repository for our textual perturbation defense, a simple yet effective method to mitigate backdoor attacks against text-to-image diffusion models.
 
 * 🎯 Text-to-image diffusion models are vulnerable to backdoor attacks, yet the countermeasures remain under-explored.
-* ✅ We propose a simple defense! Simply perturbing the input text before feeding it into the text encoder. This is based on the observation that backdoor trigger tokens are typically distant from their original positions after attacks. 
+* ✅ We propose a simple defense! Simply perturb the input text before feeding it into the text encoder. This is based on the observation that backdoor trigger tokens are typically distant from their original positions after attacks. 
 * 📝 Link to the ECCV workshop paper: https://arxiv.org/abs/2408.15721
 * 🙌 This project is a collaborative effort between ASUS, National Taiwan University and University of Michigan
 
@@ -26,7 +26,7 @@ We also provide the chow chow images used in our paper in `data/chow_chow`.
 Citation
 ---
 Please consider citing our paper if you find our work helpful. Thank you!
-```
+```bibtex
 @inproceedings{
     chew2024defending,
     title={Defending Text-to-image Diffusion Models: Surprising Efficacy of Textual Perturbations Against Backdoor Attacks},
