@@ -4,9 +4,11 @@ Textual Perturbations Defense
 This is the official repository for our textual perturbation defense, a simple yet effective method to mitigate backdoor attacks against text-to-image diffusion models.
 
 * 🎯 Text-to-image diffusion models are vulnerable to backdoor attacks, yet the countermeasures remain under-explored.
-* ✅ We propose a simple defense! Simply perturb the input text before feeding it into the text encoder. This is based on the observation that backdoor trigger tokens are typically distant from their original positions after attacks. 
+* ✅ We propose a simple defense! Simply perturb the input text before feeding it into the text encoder. This is based on the observation that backdoor trigger tokens are typically distant from their original positions after attacks.
+    * TextualPerturbation: simple perturbations based on random character/word manipulations
+    * PEPPER: perception-guided perturbation
 * 📝 Link to the [EMNLP 2026 Findings](https://aclanthology.org/2026.findings-emnlp.548/) and [ECCV 2024 workshop](https://arxiv.org/abs/2408.15721) papers.
-* 🙌 This project is a collaborative effort between ASUS, National Taiwan University and University of Michigan
+* 🙌 This project is a collaborative effort between Texas A&M University, ASUS, National Taiwan University and University of Michigan
 
 Installation
 ---
