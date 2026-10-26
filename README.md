@@ -5,7 +5,7 @@ This is the official repository for our textual perturbation defense, a simple y
 
 * 🎯 Text-to-image diffusion models are vulnerable to backdoor attacks, yet the countermeasures remain under-explored.
 * ✅ We propose a simple defense! Simply perturb the input text before feeding it into the text encoder. This is based on the observation that backdoor trigger tokens are typically distant from their original positions after attacks. 
-* 📝 Link to the ECCV workshop paper: https://arxiv.org/abs/2408.15721
+* 📝 Link to the [EMNLP 2026 Findings](https://aclanthology.org/2026.findings-emnlp.548/) and [ECCV 2024 workshop](https://arxiv.org/abs/2408.15721) papers.
 * 🙌 This project is a collaborative effort between ASUS, National Taiwan University and University of Michigan
 
 Installation
@@ -26,6 +26,22 @@ We also provide the chow chow images used in our paper in `data/chow_chow`.
 Citation
 ---
 Please consider citing our paper if you find our work helpful. Thank you!
+```bibtex
+@inproceedings{chew-etal-2026-pepper,
+    title = "{PEPPER}: Perception-Guided Perturbation for Robust Backdoor Defense in Text-to-Image Diffusion Models",
+    author = "Chew, Oscar and Lu, Po-Yi  and Lin, Jayden  and Huang, Kuan-Hao  and Lin, Hsuan-Tien",
+    editor = "Lee, Hung-Yi and Dev, Sunipa and Li, Jessy and Elliott, Desmond",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2026",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-emnlp.548/",
+    pages = "11562--11574",
+    ISBN = "979-8-89176-462-0",
+}
+```
+
 ```bibtex
 @inproceedings{
     chew2024defending,
