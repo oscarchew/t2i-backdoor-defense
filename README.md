@@ -21,9 +21,9 @@ pip install -r requirements.txt
 
 Usage
 ---
-To use our perturbation framework, please refer to the main function in `src/text_augmenter.py`.
+To use our perturbation framework, please refer to `src/pepper.py` and `src/textual_perturbation.py`
 
-We also provide the chow chow images used in our paper in `data/chow_chow`.
+We also provide the chow chow images used in our 2024 paper in `data/chow_chow`.
 
 Citation
 ---
