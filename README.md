@@ -23,7 +23,7 @@ Usage
 ---
 To use our perturbation framework, please refer to `src/pepper.py` and `src/textual_perturbation.py`
 
-We also provide the chow chow images used in our 2024 paper in `data/chow_chow`.
+We also provide the [MSCOCO](https://cocodataset.org/#home) prompts used in our 2026 paper in `data/coco_100.txt` and chow chow images used in our 2024 paper in `data/chow_chow`.
 
 Citation
 ---
